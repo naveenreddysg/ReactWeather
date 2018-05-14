@@ -27,9 +27,9 @@ var React = require('react');
 //Arrow Function
 
 var WeatherMessage = ({temp, location}) => {
-        return(
-            <h3 className="text-center">It's is {((temp-32)*(5/9)).toFixed(2)} &#8451; in {location}</h3>
-        );
-}
+  return (
+    <h3 className="text-center">It's it {temp} in {location}.</h3>
+  )
+};
 
 module.exports = WeatherMessage;
